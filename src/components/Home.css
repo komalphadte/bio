@@ -1,0 +1,151 @@
+.home__bg{
+    
+    background-color: #010101;
+    background-position: 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(C:/Users/geetesh/Desktop/tapp/src/components/Images/PA2.png);
+    padding-top: 20px;
+    
+}
+img.myimg {
+    display: none;
+}
+li.nav__items{
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+.home__content{
+    padding: 185px 0px;
+}
+h1.home__text{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: rgba(198,201,216,.75)!important;
+}
+h2.home__text{
+    font-size: 54px;
+    line-height: 54px;
+    font-weight: 800;
+    font-family: Montserrat,sans-serif;
+}
+h3.home__text{
+    font-size: 54px;
+    font-weight: 800;
+    font-family: Montserrat,sans-serif;
+    line-height: 54px;
+}
+h4.home__text{
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 54px;
+    font-family: Montserrat,sans-serif;
+    
+}
+.header{
+    transition: .4s all ease;
+}
+.header.active{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    padding: 0px 30px;
+    background-color: #191919;
+}
+.toggle__menu {
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+    z-index: 1000;
+    width: 100%;
+}
+ul.sidebar.d__flex {
+    flex-wrap: wrap;
+    height: 100%;
+    position: fixed;
+    right: 0%;
+    background: #010101;
+    justify-content: center;
+    width: 300px;
+    top: 0%;
+    flex-direction: column;
+    
+}
+li.sideNavbar{
+    padding: 25px 30px;
+}
+.sideNavbar {
+    display: none;
+}
+.bi.bi-justify.white.pointer {
+    display: none;
+}
+@media (max-width:1024px) {
+    .header{
+        padding-top: 0;
+    }
+    .home__bg {
+        background-image: url(C:/Users/geetesh/Desktop/tapp/src/components/Images/PA2.png);
+        background-size: 1024px;
+    }
+    h2.home__text{
+        font-size: 50px;
+    }
+    h3.home__text{
+        font-size: 40px;
+    }
+    h4.home__text{
+        font-size: 35px;
+    }
+    .home__meta {
+        padding-top: 1rem;
+    }
+    
+}
+@media (max-width:768px) {
+    .home__content{
+    padding: 100px 0px;
+    }
+    .home__bg {
+        background-image: url(C:/Users/geetesh/Desktop/tapp/src/components/Images/PA2.png);
+        background-size: 768px;
+    }
+    h2.home__text{
+        font-size: 39px;
+    }
+    h3.home__text{
+        font-size: 29px;
+    }
+    h4.home__text{
+        font-size: 27px;
+    }
+    
+}
+@media (max-width:425px) {
+    .bi.bi-justify.white.pointer {
+        display: flex;
+    }
+    .sideNavbar {
+        display: block;
+    }
+    .navbar {
+        display: none;
+    }
+    .container {
+        text-align: center;
+    }
+    .home__content {
+        padding: 0px 0px;
+    }
+    img.myimg {
+        text-align: center;
+        display: inline-grid;
+        border-radius: 50%;
+        height: 140px;
+        width: 140px;
+    }
+    
+}
+
+
